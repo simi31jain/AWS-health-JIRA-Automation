@@ -1,0 +1,41 @@
+service: my-service
+ 
+provider:
+  name: aws
+  runtime: python3.11
+  region: us-east-1
+ 
+functions:
+  health:
+    handler: health.lambda_handler
+    events:
+      - eventBridge:
+          eventBus: default
+          pattern:
+            source:
+              - "awsmock.health"
+      - eventBridge:
+          eventBus: default
+          pattern:
+            source:
+              - "aws.health"
+ 
+resources:
+  Resources:
+    MyEventRule:
+      Type: AWS::Events::Rule
+      Properties:
+        Name: my-event-rule
+        EventBusName: default
+        EventPattern:
+          source:
+            - "awsmock.health"
+ 
+    MySecondEventRule:
+      Type: AWS::Events::Rule
+      Properties:
+        Name: my-second-event-rule
+        EventBusName: default
+        EventPattern:
+          source:
+            - "aws.health"
