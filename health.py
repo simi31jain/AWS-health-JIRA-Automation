@@ -12,7 +12,6 @@ def lambda_handler(event, context):
     event_type = event['eventTypeCode']
     description = event['eventDescription'][0]['latestDescription']
  
- 
     print("summary:",service,"description:",description)
     
     # Create Jira issue payload
