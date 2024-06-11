@@ -5,13 +5,16 @@
 This project sets up the infrastructure using serverless to automatically create JIRA tickets when a health issue appears on the AWS Health Dashboard.
 
 ## Prerequisites
-Before you begin, ensure you have the following configured:
+Before you begin, ensure you have the following configured and if necessary refer the links given below.
 
 1. AWS Credentials
-   refer the following link to configure AWS credentials : https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html#cli-configure-files-methods
-3. Python
-4. npm
-5. Serverless Framework
+      https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html#cli-configure-files-methods
+2. Python
+      https://www.python.org/downloads/  
+3. npm
+      https://nodejs.org/en/download/package-manager
+4. Serverless Framework
+      https://www.serverless.com/framework/docs-getting-started
 
 ## Steps to Deploy
 
