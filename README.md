@@ -29,7 +29,7 @@ Before you begin, ensure you have the following configured and if necessary refe
 3. **Define Variables**
    To store your security credentials like JIRA_URL, API_TOKEN, USERNAME, PROJECT_KEY you can define a file named as variables.py file in the project root repository.
 
- **NOTE:** Format of above variables is as following:
+ **NOTE:** Format of above variables is as following and replace the values.
  ```python
  JIRA_URL = "<https://<your-domain>.atlassian.net/rest/api/3/issue>"  
  USER_NAME = "<USER NAME OF JIRA ACCOUNT>"
