@@ -15,14 +15,18 @@ Before you begin, ensure you have the following configured and if necessary refe
       https://nodejs.org/en/download/package-manager
 4. Serverless Framework
       https://www.serverless.com/framework/docs-getting-started
+5. Git Installation:
+      https://www.git-scm.com/downloads
 
 ## Steps to Deploy
 
 1. **Clone the Repository**
 
    Clone the repository containing the code.
+   ```sh
+   git clone <repository url starting with https:>
 
-2. **Define Variables**
+3. **Define Variables**
    To store your security credentials like JIRA_URL, API_TOKEN, USERNAME, PROJECT_KEY you can define a file named as variables.py file in the project root repository.
 
  **NOTE:** Format of above variables is as following:
