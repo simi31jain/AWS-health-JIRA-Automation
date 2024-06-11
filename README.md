@@ -79,7 +79,7 @@ Before you begin, ensure you have the following configured:
    Run the following command after writing mock payload file and other above steps
    
   ```sh
-   aws events put-events --entries file://<filename>.json
+   aws events put-events --entries file://<filename>
   ```
 
    b. **Using Test Event of Lambda**:
