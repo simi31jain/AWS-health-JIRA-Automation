@@ -24,7 +24,7 @@ Before you begin, ensure you have the following configured and if necessary refe
 
    Clone the repository containing the code.
    ```sh
-   git clone <repository url starting with https:>
+   git clone <repository url>
 
 3. **Define Variables**
    To store your security credentials like JIRA_URL, API_TOKEN, USERNAME, PROJECT_KEY you can define a file named as variables.py file in the project root repository.
@@ -36,6 +36,11 @@ Before you begin, ensure you have the following configured and if necessary refe
  API_TOKEN = "<API TOKEN OF JIRA>"
  PROJECT_KEY = "<UNIQUE JIRA PROJECT KEY>"
 ```
+You can find the Your-domain in JIRA Account 
+The USER_NAME will be your email ID 
+To generate the API_TOKEN, follow these steps : 
+      https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/
+Project key: Go to Project settings and you can see the Key
 
 3. **Deploy the Serverless Application**
 
