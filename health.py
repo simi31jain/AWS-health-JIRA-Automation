@@ -6,7 +6,7 @@ def lambda_handler(event, context):
     
     print("event--->",event)
     
-    # Access the 'service' key within the object
+    # Access the keys within the object from payload
     event_arn = event['eventArn']
     service = event['service']
     event_type = event['eventTypeCode']
