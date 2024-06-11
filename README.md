@@ -56,6 +56,7 @@ Project key: Go to Project settings and you can see the Key
    a. **Create a Mock Event Payload**:
 
       Use the following mock event payload:
+      Replace the Region, AWS-Account-ID, instance-id
 
       ```json
       [
