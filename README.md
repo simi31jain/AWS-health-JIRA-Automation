@@ -84,7 +84,7 @@ Project key: Go to Project settings and you can see the Key
          MyEventRule:
             Type: AWS::Events::Rule
             Properties:
-              Name: my-event-rule
+              Name: health-mock-event-rule
               EventBusName: default
               EventPattern:
                 source:
