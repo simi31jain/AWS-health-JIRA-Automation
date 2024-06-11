@@ -73,10 +73,9 @@ Project key: Go to Project settings and you can see the Key
 
       **NOTE:** The real-time payload given by the AWS Health Dashboard and the mock payload are different. For testing purposes, changes are required in accessing variables in the Lambda code in the `health.py` file.
 
-      For the mock event, modify the `lambda_handler` function as follows:
+      For the mock event, modify the variables in `lambda_handler` function as follows:
 
       ```python
-      def lambda_handler(event, context):
           event_arn = event['Detail']['eventArn']
           event_type = event['Detail']['eventTypeCategory']
       ```
