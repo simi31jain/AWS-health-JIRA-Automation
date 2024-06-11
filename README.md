@@ -80,6 +80,7 @@ Before you begin, ensure you have the following configured:
    
   ```sh
    aws events put-events --entries file://<filename>.json
+  ```
 
    b. **Using Test Event of Lambda**:
 
