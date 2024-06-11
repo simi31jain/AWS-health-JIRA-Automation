@@ -16,7 +16,7 @@ functions:
               - "aws.health"
  
 resources:
-  Resources:
+  Resources: 
     MySecondEventRule:
       Type: AWS::Events::Rule
       Properties:
