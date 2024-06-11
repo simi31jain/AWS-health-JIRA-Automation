@@ -13,11 +13,6 @@ functions:
           eventBus: default
           pattern:
             source:
-              - "awsmock.health"
-      - eventBridge:
-          eventBus: default
-          pattern:
-            source:
               - "aws.health"
  
 resources:
