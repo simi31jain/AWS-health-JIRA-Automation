@@ -8,9 +8,10 @@ This project sets up the infrastructure using serverless to automatically create
 Before you begin, ensure you have the following configured:
 
 1. AWS Credentials
-2. Python
-3. npm
-4. Serverless Framework
+   refer the following link to configure AWS credentials : https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html#cli-configure-files-methods
+3. Python
+4. npm
+5. Serverless Framework
 
 ## Steps to Deploy
 
