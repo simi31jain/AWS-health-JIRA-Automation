@@ -17,15 +17,6 @@ functions:
  
 resources:
   Resources:
-    MyEventRule:
-      Type: AWS::Events::Rule
-      Properties:
-        Name: my-event-rule
-        EventBusName: default
-        EventPattern:
-          source:
-            - "awsmock.health"
- 
     MySecondEventRule:
       Type: AWS::Events::Rule
       Properties:
