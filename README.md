@@ -67,11 +67,14 @@ Before you begin, ensure you have the following configured:
       ```
      Modify the serverless.yaml file by adding the below EventBridge Rule:
      ```python
-      - eventBridge:
-          eventBus: default
-          pattern:
-            source:
-              - "awsmock.health"
+         MyEventRule:
+            Type: AWS::Events::Rule
+            Properties:
+              Name: my-event-rule
+              EventBusName: default
+              EventPattern:
+                source:
+                  - "awsmock.health"
      ```
 
    b. **Using Test Event of Lambda**:
