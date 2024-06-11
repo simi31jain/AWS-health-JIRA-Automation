@@ -58,11 +58,12 @@ Before you begin, ensure you have the following configured and if necessary refe
           "DetailType": "AWS Health Abuse Event",
           "Source": "awsmock.health",
           "Time": "2024-05-08T10:15:30Z",
-          "Resources": ["arn:aws:ec2:us-east-1:612572392212:instance/i-07529cdd47b3b821b"],
+          "Resources": ["arn:aws:ec2:<REGION>:<AWS-ACCOUNT-ID>:instance/<INSTANCE-ID>"],
           "Detail": "{ \"eventArn\": \"arn:aws:health:global::event/AWS_ABUSE_DOS_REPORT_92387492375_4498_2018_08_01_02_33_00\", \"eventTypeCategory\": \"issue\" }"
         }
       ]
       ```
+      
 
       **NOTE:** The real-time payload given by the AWS Health Dashboard and the mock payload are different. For testing purposes, changes are required in accessing variables in the Lambda code in the `health.py` file.
 
