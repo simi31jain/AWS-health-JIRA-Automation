@@ -7,12 +7,12 @@ This project sets up the infrastructure using serverless to automatically create
 ## Prerequisites
 Before you begin, ensure you have the following configured and if necessary refer the links given below.
 
-1. AWS Credentials
-      https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html#cli-configure-files-methods
+1. AWS CLI and AWS Credentials
+    https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 2. Python
-      https://www.python.org/downloads/  
-3. npm
-      https://nodejs.org/en/download/package-manager
+    https://www.geeksforgeeks.org/how-to-install-python-in-ubuntu/
+3. nodejs and npm
+     https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
 4. Serverless Framework
       https://www.serverless.com/framework/docs-getting-started
 5. Git Installation:
